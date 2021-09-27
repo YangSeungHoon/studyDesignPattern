@@ -15,7 +15,7 @@ Abstract Factory Patten 이란?
   </br></br></br>
 
 # Class diagram
-![screens](../img/abstractFactoryPattern.png)
+![screensh](../img/abstractFactoryPattern.png)
 </br></br></br>
 
 # 객체 협력
