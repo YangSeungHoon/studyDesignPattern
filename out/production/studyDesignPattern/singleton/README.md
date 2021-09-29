@@ -12,7 +12,7 @@ Singleton Patten 이란?
   </br></br></br>
 
 # Class diagram
-![screensh](../img/singleton.PNG)
+![screensh](../img/singleton.png)
 </br></br></br>
 
 # 객체 협력
