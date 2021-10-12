@@ -6,6 +6,7 @@ public class AdapterTest {
 
         MallardDuck duck = new MallardDuck();
 
+
         WildTurkey turkey = new WildTurkey();
         System.out.println("칠면조가 말한다..");
         turkey.gobble();
