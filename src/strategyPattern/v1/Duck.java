@@ -1,4 +1,4 @@
-package strategyPattern;
+package strategyPattern.v1;
 
 public abstract class Duck {
 

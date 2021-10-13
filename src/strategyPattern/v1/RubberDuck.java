@@ -1,4 +1,4 @@
-package strategyPattern;
+package strategyPattern.v1;
 
 public class RubberDuck extends Duck{
 
