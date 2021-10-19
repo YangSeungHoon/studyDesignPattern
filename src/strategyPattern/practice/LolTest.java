@@ -1,7 +1,9 @@
 package strategyPattern.practice;
 
+import java.io.IOException;
+
 public class LolTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Champion xinZhao = new XinZhao();
         xinZhao.introduce();
@@ -25,5 +27,20 @@ public class LolTest {
         teemo.setDefendable(new Shield());
         System.out.print("티모가 ");
         teemo.performDefend();
+
+
+        System.out.println("신짜오 s, 티모 t");
+        int ch = System.in.read();
+        Champion champion = null;
+
+        if(ch == 's' || ch == 'S') {
+            champion = new XinZhao();
+        }else{
+            champion = new Teemo();
+        }
+
+        champion.performAttack();
+        champion.performDefend();
+        champion.performMove();
     }
 }
