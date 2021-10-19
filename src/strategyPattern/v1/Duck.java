@@ -1,5 +1,9 @@
 package strategyPattern.v1;
 
+
+// 오리가 해야하는 일을 정해둔다.
+// 오리가 어떻게 날 건지 정의.
+// 오리가 어떻게 울 건지 정의한다.
 public abstract class Duck {
 
     FlyBehavior flyBehavior;
