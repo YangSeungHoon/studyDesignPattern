@@ -1,12 +1,11 @@
 package strategyPattern.practice;
 
-public abstract class Champion {
+public  class  Champion{
 
     Attackable attackable;
     Defendable defendable;
     Moveable moveable;
 
-    public abstract void  introduce();
 
     public void setAttackable(Attackable attackable) {
         this.attackable = attackable;
@@ -29,6 +28,5 @@ public abstract class Champion {
     public void performMove(){
         moveable.move();
     }
-
 
 }

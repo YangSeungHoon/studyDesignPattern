@@ -2,7 +2,7 @@ package strategyPattern.practice;
 
 import strategyPattern.practice.Attackable;
 
-public class Spear implements Attackable {
+public class SpearStrategy implements Attackable {
 
     @Override
     public void attack() {
