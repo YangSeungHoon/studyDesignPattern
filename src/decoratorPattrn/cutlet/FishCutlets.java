@@ -1,4 +1,4 @@
-package decoratorPattrn;
+package decoratorPattrn.cutlet;
 
 public class FishCutlets extends Cutlet{
 

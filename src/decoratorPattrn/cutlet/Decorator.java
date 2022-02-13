@@ -1,4 +1,4 @@
-package decoratorPattrn;
+package decoratorPattrn.cutlet;
 
 public abstract class Decorator extends Cutlet{
 
